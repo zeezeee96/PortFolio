@@ -39,17 +39,18 @@ export default function AppFooter() {
         <Col xs={20} offset={2}>
           <hr />
           <div style={{ display: "flex", justifyContent: "space-between" }}>
-            <h1
+            <h3
               style={{
                 color: "#ffffff",
-                margin: "14px",
+                margin: "6px",
+                fontSize:'14px'
               }}
             >
               © 2021, Muhammad Aziz. All rights reserved.
-            </h1>
+            </h3>
             <div>
               <LinkedinOutlined
-                style={{ fontSize: "30px", margin: "14px" }}
+                style={{ fontSize: "14px", margin: "6px", cursor: "pointer" }}
                 onClick={() =>
                   router.push(
                     "https://www.linkedin.com/in/muhammad-aziz-4597339b/"
@@ -57,12 +58,12 @@ export default function AppFooter() {
                 }
               />
               <GithubOutlined
-                style={{ fontSize: "30px", margin: "14px", cursor: "pointer" }}
+                style={{ fontSize: "14px", margin: "6px", cursor: "pointer" }}
                 onClick={() => router.push("https://github.com/zeezeee96")}
               />
 
               <TwitterOutlined
-                style={{ fontSize: "31px", margin: "14px" }}
+                style={{ fontSize: "14px", margin: "6px" , cursor: "pointer"}}
                 onClick={() => router.push("https://twitter.com/zeeezeee96")}
               />
             </div>

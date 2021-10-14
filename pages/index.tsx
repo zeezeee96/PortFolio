@@ -37,7 +37,7 @@ const Home: NextPage = () => {
         </Header>
         <Content
           className={styles.content}
-          style={{ padding: "0 50px", marginTop: 64 }}
+          style={{ padding: "0 10px", marginTop: 64 }}
         >
           {contactMe ? <ContactMe /> : <HomePage />}
         </Content>

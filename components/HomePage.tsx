@@ -4,8 +4,8 @@ import { Col, Row } from "antd";
 export const HomePage = () => {
   return (
     <div>
-      <Row justify="center" align="middle" style={{ height: "50vh" }}>
-        <Col xs={20} md={16} lg={12} xl={9}>
+      <Row justify="center" align="middle" style={{ height: "60vh" }}>
+        <Col xs={8} sm={6} md={6} lg={9} >
           <div>
           <div style={{  display:'flex', justifyContent:'center' }}>
               <Image
@@ -19,7 +19,7 @@ export const HomePage = () => {
           </div>
         
         </Col>
-        <Col xs={20} md={16} lg={12} xl={9}>
+        <Col xs={24} sm={18} md={12} lg={9}>
           <div
             style={{
               display: "flex",
@@ -30,18 +30,19 @@ export const HomePage = () => {
             <h1
               style={{
                 color: "#ffffff",
-                fontSize: "60px",
-                margin: "14px",
+                fontSize: "50px",
+                margin: "5px",
                 textAlign: "center",
               }}
             >
-              Hi There !
+              Hi There!
             </h1>
             <h1
               style={{
                 color: "#ffffff",
-                margin: "14px",
+                margin: "2px",
                 textAlign: "center",
+                fontSize:'24px'
               }}
             >
               Hey There, This is Muhammad Aziz. I am a MERN Stack Developer
