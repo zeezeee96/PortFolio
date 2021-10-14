@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   const link = from([
     errorLink,
-    new HttpLink({ uri: "http://localhost:4000/graphql", }),
+    new HttpLink({ uri: "https://zeeportfoliobackend.herokuapp.com/graphql", }),
   ]);
 
   const client = new ApolloClient({
